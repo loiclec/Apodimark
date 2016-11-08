@@ -18,6 +18,13 @@ extension LinkedList {
 
 class LinkedListsTests: XCTestCase {
 
+    static let allTests = [
+        ("testEmptyList", testEmptyList),
+        ("testPrepend", testPrepend),
+        ("testAddAfterNonOptionalIndex", testAddAfterNonOptionalIndex),
+        ("testAddAfterOptionalIndex", testAddAfterOptionalIndex),
+    ]
+
     func testEmptyList() {
         let l1 = LinkedList<Int>()
         XCTAssertTrue(l1.count == 0)
