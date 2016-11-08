@@ -1,5 +1,6 @@
 
 import XCTest
+import Foundation
 import Apodimark
 
 private func baseStringForTest(_ name: String, result: Bool = false) -> String {

@@ -4,6 +4,7 @@
 //
 
 import XCTest
+import Foundation
 @testable import Apodimark
 
 extension LinkedList {

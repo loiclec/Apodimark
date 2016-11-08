@@ -1,5 +1,6 @@
 
 import XCTest
+import Foundation
 import Apodimark
 
 private let tests = [
