@@ -1,4 +1,11 @@
-language: objective-c
+os:
+  - linux
+  - osx
+language: generic
+sudo: required
+dist: trusty
 osx_image: xcode8
-script: xcrun xcodebuild -project Apodimark.xcodeproj -scheme Apodimark-UnitTests test
-after_success: bash <(curl -s https://codecov.io/bash)
+script:
+  - eval "$(curl -sL https://swift.vapor.sh/ci)"
+  - eval "$(curl -sL https://swift.vapor.sh/codecov)"
+  
