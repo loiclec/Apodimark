@@ -2,10 +2,13 @@
 
 import XCTest
 @testable import ApodimarkTests
+@testable import PerformanceTests
 
-XCTMain([
+XCTMait([
+    // ApodimarkTests
     testCase(CommonMarkConformanceTests.allTests),
-    testCase(LinkedListsTests.allTests),
+    
+    // PerformanceTests
     testCase(PerformanceTests.allTests),
 ])
 

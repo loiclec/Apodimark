@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_43"
+               BlueprintIdentifier = "OBJ_44"
                BuildableName = "Apodimark.framework"
                BlueprintName = "Apodimark"
                ReferencedContainer = "container:Apodimark.xcodeproj">
@@ -32,9 +32,19 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "OBJ_68"
+               BlueprintIdentifier = "OBJ_69"
                BuildableName = "ApodimarkTests.xctest"
                BlueprintName = "ApodimarkTests"
+               ReferencedContainer = "container:Apodimark.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "OBJ_79"
+               BuildableName = "PerformanceTests.xctest"
+               BlueprintName = "PerformanceTests"
                ReferencedContainer = "container:Apodimark.xcodeproj">
             </BuildableReference>
          </TestableReference>
@@ -55,7 +65,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "OBJ_43"
+            BlueprintIdentifier = "OBJ_44"
             BuildableName = "Apodimark.framework"
             BlueprintName = "Apodimark"
             ReferencedContainer = "container:Apodimark.xcodeproj">

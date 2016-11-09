@@ -7,38 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		OBJ_48 /* Apodimark.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* Apodimark.swift */; };
-		OBJ_49 /* MarkdownParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_10 /* MarkdownParser.swift */; };
-		OBJ_50 /* MarkdownParserCodec.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_11 /* MarkdownParserCodec.swift */; };
-		OBJ_51 /* BlockAST.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_13 /* BlockAST.swift */; };
-		OBJ_52 /* BlockParsing.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_14 /* BlockParsing.swift */; };
-		OBJ_53 /* LineLexer.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_15 /* LineLexer.swift */; };
-		OBJ_54 /* LineLexerStructures.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_16 /* LineLexerStructures.swift */; };
-		OBJ_55 /* Ordering.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_18 /* Ordering.swift */; };
-		OBJ_56 /* Scanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_19 /* Scanner.swift */; };
-		OBJ_57 /* Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_20 /* Tree.swift */; };
-		OBJ_58 /* InlineAST.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_22 /* InlineAST.swift */; };
-		OBJ_59 /* InlineNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_23 /* InlineNode.swift */; };
-		OBJ_60 /* InlineParsing.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_24 /* InlineParsing.swift */; };
-		OBJ_61 /* InlineParsingStructures.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_25 /* InlineParsingStructures.swift */; };
-		OBJ_62 /* ProcessEmphasis.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_27 /* ProcessEmphasis.swift */; };
-		OBJ_63 /* ProcessEscapingBackslashes.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_28 /* ProcessEscapingBackslashes.swift */; };
-		OBJ_64 /* ProcessMonospacedText.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_29 /* ProcessMonospacedText.swift */; };
-		OBJ_65 /* ProcessReference.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_30 /* ProcessReference.swift */; };
-		OBJ_66 /* ProcessText.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_31 /* ProcessText.swift */; };
-		OBJ_73 /* ApodimarkOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_34 /* ApodimarkOutput.swift */; };
-		OBJ_74 /* CommonMarkConformanceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_35 /* CommonMarkConformanceTests.swift */; };
-		OBJ_75 /* LinkedListsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_36 /* LinkedListsTests.swift */; };
-		OBJ_76 /* PerformanceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_37 /* PerformanceTests.swift */; };
-		OBJ_78 /* Apodimark.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_41 /* Apodimark.framework */; };
+		OBJ_49 /* Apodimark.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* Apodimark.swift */; };
+		OBJ_50 /* MarkdownParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_10 /* MarkdownParser.swift */; };
+		OBJ_51 /* MarkdownParserCodec.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_11 /* MarkdownParserCodec.swift */; };
+		OBJ_52 /* BlockAST.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_13 /* BlockAST.swift */; };
+		OBJ_53 /* BlockParsing.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_14 /* BlockParsing.swift */; };
+		OBJ_54 /* LineLexer.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_15 /* LineLexer.swift */; };
+		OBJ_55 /* LineLexerStructures.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_16 /* LineLexerStructures.swift */; };
+		OBJ_56 /* Ordering.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_18 /* Ordering.swift */; };
+		OBJ_57 /* Scanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_19 /* Scanner.swift */; };
+		OBJ_58 /* Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_20 /* Tree.swift */; };
+		OBJ_59 /* InlineAST.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_22 /* InlineAST.swift */; };
+		OBJ_60 /* InlineNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_23 /* InlineNode.swift */; };
+		OBJ_61 /* InlineParsing.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_24 /* InlineParsing.swift */; };
+		OBJ_62 /* InlineParsingStructures.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_25 /* InlineParsingStructures.swift */; };
+		OBJ_63 /* ProcessEmphasis.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_27 /* ProcessEmphasis.swift */; };
+		OBJ_64 /* ProcessEscapingBackslashes.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_28 /* ProcessEscapingBackslashes.swift */; };
+		OBJ_65 /* ProcessMonospacedText.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_29 /* ProcessMonospacedText.swift */; };
+		OBJ_66 /* ProcessReference.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_30 /* ProcessReference.swift */; };
+		OBJ_67 /* ProcessText.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_31 /* ProcessText.swift */; };
+		OBJ_74 /* ApodimarkOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_34 /* ApodimarkOutput.swift */; };
+		OBJ_75 /* CommonMarkConformanceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_35 /* CommonMarkConformanceTests.swift */; };
+		OBJ_77 /* Apodimark.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_41 /* Apodimark.framework */; };
+		OBJ_84 /* PerformanceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_37 /* PerformanceTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		803CF0E71DD1559A00A7DA12 /* PBXContainerItemProxy */ = {
+		801D748D1DD3C37D005448B5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = OBJ_43;
+			remoteGlobalIDString = OBJ_44;
 			remoteInfo = Apodimark;
 		};
 /* End PBXContainerItemProxy section */
@@ -64,29 +63,36 @@
 		OBJ_31 /* ProcessText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProcessText.swift; sourceTree = "<group>"; };
 		OBJ_34 /* ApodimarkOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApodimarkOutput.swift; sourceTree = "<group>"; };
 		OBJ_35 /* CommonMarkConformanceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonMarkConformanceTests.swift; sourceTree = "<group>"; };
-		OBJ_36 /* LinkedListsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedListsTests.swift; sourceTree = "<group>"; };
 		OBJ_37 /* PerformanceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerformanceTests.swift; sourceTree = "<group>"; };
 		OBJ_38 /* internal */ = {isa = PBXFileReference; lastKnownFileType = folder; path = internal; sourceTree = SOURCE_ROOT; };
 		OBJ_39 /* test-files */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "test-files"; sourceTree = SOURCE_ROOT; };
 		OBJ_41 /* Apodimark.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Apodimark.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		OBJ_42 /* ApodimarkTests.xctest */ = {isa = PBXFileReference; lastKnownFileType = file; path = ApodimarkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		OBJ_43 /* PerformanceTests.xctest */ = {isa = PBXFileReference; lastKnownFileType = file; path = PerformanceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 		OBJ_9 /* Apodimark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apodimark.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		OBJ_67 /* Frameworks */ = {
+		OBJ_68 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 0;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_77 /* Frameworks */ = {
+		OBJ_76 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_78 /* Apodimark.framework in Frameworks */,
+				OBJ_77 /* Apodimark.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -142,6 +148,7 @@
 			isa = PBXGroup;
 			children = (
 				OBJ_33 /* ApodimarkTests */,
+				OBJ_36 /* PerformanceTests */,
 			);
 			path = Tests;
 			sourceTree = "<group>";
@@ -151,11 +158,18 @@
 			children = (
 				OBJ_34 /* ApodimarkOutput.swift */,
 				OBJ_35 /* CommonMarkConformanceTests.swift */,
-				OBJ_36 /* LinkedListsTests.swift */,
-				OBJ_37 /* PerformanceTests.swift */,
 			);
 			name = ApodimarkTests;
 			path = Tests/ApodimarkTests;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_36 /* PerformanceTests */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_37 /* PerformanceTests.swift */,
+			);
+			name = PerformanceTests;
+			path = Tests/PerformanceTests;
 			sourceTree = SOURCE_ROOT;
 		};
 		OBJ_40 /* Products */ = {
@@ -163,6 +177,7 @@
 			children = (
 				OBJ_41 /* Apodimark.framework */,
 				OBJ_42 /* ApodimarkTests.xctest */,
+				OBJ_43 /* PerformanceTests.xctest */,
 			);
 			name = Products;
 			sourceTree = BUILT_PRODUCTS_DIR;
@@ -205,12 +220,12 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		OBJ_43 /* Apodimark */ = {
+		OBJ_44 /* Apodimark */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_44 /* Build configuration list for PBXNativeTarget "Apodimark" */;
+			buildConfigurationList = OBJ_45 /* Build configuration list for PBXNativeTarget "Apodimark" */;
 			buildPhases = (
-				OBJ_47 /* Sources */,
-				OBJ_67 /* Frameworks */,
+				OBJ_48 /* Sources */,
+				OBJ_68 /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -221,21 +236,37 @@
 			productReference = OBJ_41 /* Apodimark.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		OBJ_68 /* ApodimarkTests */ = {
+		OBJ_69 /* ApodimarkTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_69 /* Build configuration list for PBXNativeTarget "ApodimarkTests" */;
+			buildConfigurationList = OBJ_70 /* Build configuration list for PBXNativeTarget "ApodimarkTests" */;
 			buildPhases = (
-				OBJ_72 /* Sources */,
-				OBJ_77 /* Frameworks */,
+				OBJ_73 /* Sources */,
+				OBJ_76 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				OBJ_79 /* PBXTargetDependency */,
+				OBJ_78 /* PBXTargetDependency */,
 			);
 			name = ApodimarkTests;
 			productName = ApodimarkTests;
 			productReference = OBJ_42 /* ApodimarkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		OBJ_79 /* PerformanceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_80 /* Build configuration list for PBXNativeTarget "PerformanceTests" */;
+			buildPhases = (
+				OBJ_83 /* Sources */,
+				OBJ_85 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PerformanceTests;
+			productName = PerformanceTests;
+			productReference = OBJ_43 /* PerformanceTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -258,57 +289,64 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				OBJ_43 /* Apodimark */,
-				OBJ_68 /* ApodimarkTests */,
+				OBJ_44 /* Apodimark */,
+				OBJ_69 /* ApodimarkTests */,
+				OBJ_79 /* PerformanceTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		OBJ_47 /* Sources */ = {
+		OBJ_48 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_48 /* Apodimark.swift in Sources */,
-				OBJ_49 /* MarkdownParser.swift in Sources */,
-				OBJ_50 /* MarkdownParserCodec.swift in Sources */,
-				OBJ_51 /* BlockAST.swift in Sources */,
-				OBJ_52 /* BlockParsing.swift in Sources */,
-				OBJ_53 /* LineLexer.swift in Sources */,
-				OBJ_54 /* LineLexerStructures.swift in Sources */,
-				OBJ_55 /* Ordering.swift in Sources */,
-				OBJ_56 /* Scanner.swift in Sources */,
-				OBJ_57 /* Tree.swift in Sources */,
-				OBJ_58 /* InlineAST.swift in Sources */,
-				OBJ_59 /* InlineNode.swift in Sources */,
-				OBJ_60 /* InlineParsing.swift in Sources */,
-				OBJ_61 /* InlineParsingStructures.swift in Sources */,
-				OBJ_62 /* ProcessEmphasis.swift in Sources */,
-				OBJ_63 /* ProcessEscapingBackslashes.swift in Sources */,
-				OBJ_64 /* ProcessMonospacedText.swift in Sources */,
-				OBJ_65 /* ProcessReference.swift in Sources */,
-				OBJ_66 /* ProcessText.swift in Sources */,
+				OBJ_49 /* Apodimark.swift in Sources */,
+				OBJ_50 /* MarkdownParser.swift in Sources */,
+				OBJ_51 /* MarkdownParserCodec.swift in Sources */,
+				OBJ_52 /* BlockAST.swift in Sources */,
+				OBJ_53 /* BlockParsing.swift in Sources */,
+				OBJ_54 /* LineLexer.swift in Sources */,
+				OBJ_55 /* LineLexerStructures.swift in Sources */,
+				OBJ_56 /* Ordering.swift in Sources */,
+				OBJ_57 /* Scanner.swift in Sources */,
+				OBJ_58 /* Tree.swift in Sources */,
+				OBJ_59 /* InlineAST.swift in Sources */,
+				OBJ_60 /* InlineNode.swift in Sources */,
+				OBJ_61 /* InlineParsing.swift in Sources */,
+				OBJ_62 /* InlineParsingStructures.swift in Sources */,
+				OBJ_63 /* ProcessEmphasis.swift in Sources */,
+				OBJ_64 /* ProcessEscapingBackslashes.swift in Sources */,
+				OBJ_65 /* ProcessMonospacedText.swift in Sources */,
+				OBJ_66 /* ProcessReference.swift in Sources */,
+				OBJ_67 /* ProcessText.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_72 /* Sources */ = {
+		OBJ_73 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_73 /* ApodimarkOutput.swift in Sources */,
-				OBJ_74 /* CommonMarkConformanceTests.swift in Sources */,
-				OBJ_75 /* LinkedListsTests.swift in Sources */,
-				OBJ_76 /* PerformanceTests.swift in Sources */,
+				OBJ_74 /* ApodimarkOutput.swift in Sources */,
+				OBJ_75 /* CommonMarkConformanceTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_83 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_84 /* PerformanceTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		OBJ_79 /* PBXTargetDependency */ = {
+		OBJ_78 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = OBJ_43 /* Apodimark */;
-			targetProxy = 803CF0E71DD1559A00A7DA12 /* PBXContainerItemProxy */;
+			target = OBJ_44 /* Apodimark */;
+			targetProxy = 801D748D1DD3C37D005448B5 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -349,7 +387,7 @@
 			};
 			name = Release;
 		};
-		OBJ_45 /* Debug */ = {
+		OBJ_46 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ENABLE_TESTABILITY = YES;
@@ -369,7 +407,7 @@
 			};
 			name = Debug;
 		};
-		OBJ_46 /* Release */ = {
+		OBJ_47 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ENABLE_TESTABILITY = YES;
@@ -389,7 +427,7 @@
 			};
 			name = Release;
 		};
-		OBJ_70 /* Debug */ = {
+		OBJ_71 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
@@ -406,7 +444,7 @@
 			};
 			name = Debug;
 		};
-		OBJ_71 /* Release */ = {
+		OBJ_72 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
@@ -420,6 +458,40 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = SWIFT_PACKAGE;
 				SWIFT_VERSION = 3.0;
 				TARGET_NAME = ApodimarkTests;
+			};
+			name = Release;
+		};
+		OBJ_81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = Apodimark.xcodeproj/PerformanceTests_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SUPPORTED_PLATFORMS = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = SWIFT_PACKAGE;
+				SWIFT_VERSION = 3.0;
+				TARGET_NAME = PerformanceTests;
+			};
+			name = Debug;
+		};
+		OBJ_82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = Apodimark.xcodeproj/PerformanceTests_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SUPPORTED_PLATFORMS = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = SWIFT_PACKAGE;
+				SWIFT_VERSION = 3.0;
+				TARGET_NAME = PerformanceTests;
 			};
 			name = Release;
 		};
@@ -435,20 +507,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		OBJ_44 /* Build configuration list for PBXNativeTarget "Apodimark" */ = {
+		OBJ_45 /* Build configuration list for PBXNativeTarget "Apodimark" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				OBJ_45 /* Debug */,
-				OBJ_46 /* Release */,
+				OBJ_46 /* Debug */,
+				OBJ_47 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		OBJ_69 /* Build configuration list for PBXNativeTarget "ApodimarkTests" */ = {
+		OBJ_70 /* Build configuration list for PBXNativeTarget "ApodimarkTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				OBJ_70 /* Debug */,
-				OBJ_71 /* Release */,
+				OBJ_71 /* Debug */,
+				OBJ_72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		OBJ_80 /* Build configuration list for PBXNativeTarget "PerformanceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_81 /* Debug */,
+				OBJ_82 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
