@@ -4,7 +4,7 @@ import XCTest
 @testable import ApodimarkTests
 @testable import PerformanceTests
 
-XCTMait([
+XCTMain([
     // ApodimarkTests
     testCase(CommonMarkConformanceTests.allTests),
     
