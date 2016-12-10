@@ -1,4 +1,5 @@
 
+/// The level of a node in the tree
 struct DepthLevel {
     fileprivate var _level: Int
     
