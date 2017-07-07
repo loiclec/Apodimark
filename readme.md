@@ -166,3 +166,7 @@ Finally, it should not have any dependencies.
   Apodimark only provides an abstract syntax tree containing 
   indices to the original collection. Output generation is 
   left as an exercise to the user.
+
+## Example project
+
+https://github.com/loiclec/TestApodimark
