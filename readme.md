@@ -1,28 +1,15 @@
 # Apodimark
 
-[![Swift 3.0](https://img.shields.io/badge/Swift-3.0-blue.svg)](https://swift.org) 
-[![license](https://img.shields.io/badge/licence-MIT-blue.svg)](https://github.com/loiclec/Apodimark/blob/master/LICENCE.md)
-[![travis](https://travis-ci.org/loiclec/Apodimark.svg?branch=master)](https://travis-ci.org/loiclec/Apodimark)
-[![codecov](https://codecov.io/gh/loiclec/Apodimark/branch/master/graph/badge.svg)](https://codecov.io/gh/loiclec/Apodimark)
+#### NOTE: this project is archived. Before using it, please be aware that it contains crashes and may not be updated in the future.  
 
 Apodimark is a markdown parser written in pure Swift 3. It is fast, flexible,
 easy to use, and works with indices instead of String, which is ideal for 
 syntax highlighting.
 
-## Contribute
-
-This is a young project, and there’s still a lot of work to 
-be done. **Contributions are welcomed and encouraged ♡**
-
-If you want to contribute, you can start by looking at 
-the [internal documentation], which includes a small guide to 
-contributing and a description of the parser.
-
-[internal documentation]: internal/readme.md
 
 ## Usage
 
-Parsing a `String.UTF16View` is easy:
+Parsing a `String.UTF16View`:
 
 ``` swift
 let ast = parsedMarkdown(source: string.utf16, definitionStore: DefaultReferenceDefinitionStore(), codec: UTF16MarkdownCodec.self)
