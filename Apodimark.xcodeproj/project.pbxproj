@@ -7,1078 +7,534 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CD048D5E1DB27FF8006D4C1D /* InlineAST.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD048D5D1DB27FF8006D4C1D /* InlineAST.swift */; };
-		CD048D5F1DB27FF8006D4C1D /* InlineAST.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD048D5D1DB27FF8006D4C1D /* InlineAST.swift */; };
-		CD048D601DB27FF8006D4C1D /* InlineAST.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD048D5D1DB27FF8006D4C1D /* InlineAST.swift */; };
-		CD048D611DB27FF8006D4C1D /* InlineAST.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD048D5D1DB27FF8006D4C1D /* InlineAST.swift */; };
-		CD04A83E1DBEC0C700EB1925 /* ProcessEscapingBackslashes.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD04A83D1DBEC0C700EB1925 /* ProcessEscapingBackslashes.swift */; };
-		CD04A83F1DBEC0C700EB1925 /* ProcessEscapingBackslashes.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD04A83D1DBEC0C700EB1925 /* ProcessEscapingBackslashes.swift */; };
-		CD04A8401DBEC0C700EB1925 /* ProcessEscapingBackslashes.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD04A83D1DBEC0C700EB1925 /* ProcessEscapingBackslashes.swift */; };
-		CD04A8411DBEC0C700EB1925 /* ProcessEscapingBackslashes.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD04A83D1DBEC0C700EB1925 /* ProcessEscapingBackslashes.swift */; };
-		CD1CCFA21DA68BCB00D3AEAF /* Apodimark.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD1CCF981DA68BCB00D3AEAF /* Apodimark.framework */; };
-		CD1CD05F1DA693E100D3AEAF /* Apodimark.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD1CCF981DA68BCB00D3AEAF /* Apodimark.framework */; };
-		CD1CD07E1DA6961300D3AEAF /* Apodimark.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1CD0661DA6961300D3AEAF /* Apodimark.swift */; };
-		CD1CD07F1DA6961300D3AEAF /* Apodimark.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1CD0661DA6961300D3AEAF /* Apodimark.swift */; };
-		CD1CD0801DA6961300D3AEAF /* Apodimark.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1CD0661DA6961300D3AEAF /* Apodimark.swift */; };
-		CD1CD0811DA6961300D3AEAF /* Apodimark.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1CD0661DA6961300D3AEAF /* Apodimark.swift */; };
-		CD1CD09E1DA6961300D3AEAF /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CD1CD0701DA6961300D3AEAF /* Info.plist */; };
-		CD1CD09F1DA6961300D3AEAF /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CD1CD0701DA6961300D3AEAF /* Info.plist */; };
-		CD1CD0A01DA6961300D3AEAF /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CD1CD0701DA6961300D3AEAF /* Info.plist */; };
-		CD1CD0A11DA6961300D3AEAF /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CD1CD0701DA6961300D3AEAF /* Info.plist */; };
-		CD1CD0C61DA6961300D3AEAF /* MarkdownParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1CD07C1DA6961300D3AEAF /* MarkdownParser.swift */; };
-		CD1CD0C71DA6961300D3AEAF /* MarkdownParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1CD07C1DA6961300D3AEAF /* MarkdownParser.swift */; };
-		CD1CD0C81DA6961300D3AEAF /* MarkdownParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1CD07C1DA6961300D3AEAF /* MarkdownParser.swift */; };
-		CD1CD0C91DA6961300D3AEAF /* MarkdownParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1CD07C1DA6961300D3AEAF /* MarkdownParser.swift */; };
-		CD1CD0CA1DA6961300D3AEAF /* MarkdownParserCodec.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1CD07D1DA6961300D3AEAF /* MarkdownParserCodec.swift */; };
-		CD1CD0CB1DA6961300D3AEAF /* MarkdownParserCodec.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1CD07D1DA6961300D3AEAF /* MarkdownParserCodec.swift */; };
-		CD1CD0CC1DA6961300D3AEAF /* MarkdownParserCodec.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1CD07D1DA6961300D3AEAF /* MarkdownParserCodec.swift */; };
-		CD1CD0CD1DA6961300D3AEAF /* MarkdownParserCodec.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1CD07D1DA6961300D3AEAF /* MarkdownParserCodec.swift */; };
-		CD1CD0D11DA6968C00D3AEAF /* ApodimarkOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1CD0CE1DA6968C00D3AEAF /* ApodimarkOutput.swift */; };
-		CD1CD0D21DA6968C00D3AEAF /* CommonMarkConformanceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1CD0CF1DA6968C00D3AEAF /* CommonMarkConformanceTests.swift */; };
-		CD1CD0D71DA696A100D3AEAF /* PerformanceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1CD0D51DA696A100D3AEAF /* PerformanceTests.swift */; };
-		CD1CD1441DA6CF7A00D3AEAF /* LineLexer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1CD12B1DA6CF7A00D3AEAF /* LineLexer.swift */; };
-		CD1CD1451DA6CF7A00D3AEAF /* LineLexer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1CD12B1DA6CF7A00D3AEAF /* LineLexer.swift */; };
-		CD1CD1461DA6CF7A00D3AEAF /* LineLexer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1CD12B1DA6CF7A00D3AEAF /* LineLexer.swift */; };
-		CD1CD1471DA6CF7A00D3AEAF /* LineLexer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1CD12B1DA6CF7A00D3AEAF /* LineLexer.swift */; };
-		CD1CD1481DA6CF7A00D3AEAF /* LineLexerStructures.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1CD12C1DA6CF7A00D3AEAF /* LineLexerStructures.swift */; };
-		CD1CD1491DA6CF7A00D3AEAF /* LineLexerStructures.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1CD12C1DA6CF7A00D3AEAF /* LineLexerStructures.swift */; };
-		CD1CD14A1DA6CF7A00D3AEAF /* LineLexerStructures.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1CD12C1DA6CF7A00D3AEAF /* LineLexerStructures.swift */; };
-		CD1CD14B1DA6CF7A00D3AEAF /* LineLexerStructures.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1CD12C1DA6CF7A00D3AEAF /* LineLexerStructures.swift */; };
-		CD1CD1501DA6CF7A00D3AEAF /* Ordering.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1CD12F1DA6CF7A00D3AEAF /* Ordering.swift */; };
-		CD1CD1511DA6CF7A00D3AEAF /* Ordering.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1CD12F1DA6CF7A00D3AEAF /* Ordering.swift */; };
-		CD1CD1521DA6CF7A00D3AEAF /* Ordering.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1CD12F1DA6CF7A00D3AEAF /* Ordering.swift */; };
-		CD1CD1531DA6CF7A00D3AEAF /* Ordering.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1CD12F1DA6CF7A00D3AEAF /* Ordering.swift */; };
-		CD1CD1541DA6CF7A00D3AEAF /* Scanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1CD1301DA6CF7A00D3AEAF /* Scanner.swift */; };
-		CD1CD1551DA6CF7A00D3AEAF /* Scanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1CD1301DA6CF7A00D3AEAF /* Scanner.swift */; };
-		CD1CD1561DA6CF7A00D3AEAF /* Scanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1CD1301DA6CF7A00D3AEAF /* Scanner.swift */; };
-		CD1CD1571DA6CF7A00D3AEAF /* Scanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1CD1301DA6CF7A00D3AEAF /* Scanner.swift */; };
-		CD1CD15C1DA6CF7A00D3AEAF /* ProcessEmphasis.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1CD1341DA6CF7A00D3AEAF /* ProcessEmphasis.swift */; };
-		CD1CD15D1DA6CF7A00D3AEAF /* ProcessEmphasis.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1CD1341DA6CF7A00D3AEAF /* ProcessEmphasis.swift */; };
-		CD1CD15E1DA6CF7A00D3AEAF /* ProcessEmphasis.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1CD1341DA6CF7A00D3AEAF /* ProcessEmphasis.swift */; };
-		CD1CD15F1DA6CF7A00D3AEAF /* ProcessEmphasis.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1CD1341DA6CF7A00D3AEAF /* ProcessEmphasis.swift */; };
-		CD1CD1601DA6CF7A00D3AEAF /* ProcessMonospacedText.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1CD1351DA6CF7A00D3AEAF /* ProcessMonospacedText.swift */; };
-		CD1CD1611DA6CF7A00D3AEAF /* ProcessMonospacedText.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1CD1351DA6CF7A00D3AEAF /* ProcessMonospacedText.swift */; };
-		CD1CD1621DA6CF7A00D3AEAF /* ProcessMonospacedText.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1CD1351DA6CF7A00D3AEAF /* ProcessMonospacedText.swift */; };
-		CD1CD1631DA6CF7A00D3AEAF /* ProcessMonospacedText.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1CD1351DA6CF7A00D3AEAF /* ProcessMonospacedText.swift */; };
-		CD1CD1641DA6CF7A00D3AEAF /* ProcessReference.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1CD1361DA6CF7A00D3AEAF /* ProcessReference.swift */; };
-		CD1CD1651DA6CF7A00D3AEAF /* ProcessReference.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1CD1361DA6CF7A00D3AEAF /* ProcessReference.swift */; };
-		CD1CD1661DA6CF7A00D3AEAF /* ProcessReference.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1CD1361DA6CF7A00D3AEAF /* ProcessReference.swift */; };
-		CD1CD1671DA6CF7A00D3AEAF /* ProcessReference.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1CD1361DA6CF7A00D3AEAF /* ProcessReference.swift */; };
-		CD1CD1681DA6CF7A00D3AEAF /* ProcessText.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1CD1371DA6CF7A00D3AEAF /* ProcessText.swift */; };
-		CD1CD1691DA6CF7A00D3AEAF /* ProcessText.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1CD1371DA6CF7A00D3AEAF /* ProcessText.swift */; };
-		CD1CD16A1DA6CF7A00D3AEAF /* ProcessText.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1CD1371DA6CF7A00D3AEAF /* ProcessText.swift */; };
-		CD1CD16B1DA6CF7A00D3AEAF /* ProcessText.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1CD1371DA6CF7A00D3AEAF /* ProcessText.swift */; };
-		CD1CD1701DA6CF7A00D3AEAF /* InlineNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1CD1391DA6CF7A00D3AEAF /* InlineNode.swift */; };
-		CD1CD1711DA6CF7A00D3AEAF /* InlineNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1CD1391DA6CF7A00D3AEAF /* InlineNode.swift */; };
-		CD1CD1721DA6CF7A00D3AEAF /* InlineNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1CD1391DA6CF7A00D3AEAF /* InlineNode.swift */; };
-		CD1CD1731DA6CF7A00D3AEAF /* InlineNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1CD1391DA6CF7A00D3AEAF /* InlineNode.swift */; };
-		CD1CD1741DA6CF7A00D3AEAF /* InlineParsing.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1CD13A1DA6CF7A00D3AEAF /* InlineParsing.swift */; };
-		CD1CD1751DA6CF7A00D3AEAF /* InlineParsing.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1CD13A1DA6CF7A00D3AEAF /* InlineParsing.swift */; };
-		CD1CD1761DA6CF7A00D3AEAF /* InlineParsing.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1CD13A1DA6CF7A00D3AEAF /* InlineParsing.swift */; };
-		CD1CD1771DA6CF7A00D3AEAF /* InlineParsing.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1CD13A1DA6CF7A00D3AEAF /* InlineParsing.swift */; };
-		CD1CD1781DA6CF7A00D3AEAF /* InlineParsingStructures.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1CD13B1DA6CF7A00D3AEAF /* InlineParsingStructures.swift */; };
-		CD1CD1791DA6CF7A00D3AEAF /* InlineParsingStructures.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1CD13B1DA6CF7A00D3AEAF /* InlineParsingStructures.swift */; };
-		CD1CD17A1DA6CF7A00D3AEAF /* InlineParsingStructures.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1CD13B1DA6CF7A00D3AEAF /* InlineParsingStructures.swift */; };
-		CD1CD17B1DA6CF7A00D3AEAF /* InlineParsingStructures.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1CD13B1DA6CF7A00D3AEAF /* InlineParsingStructures.swift */; };
-		CD9444B01DA96565007ADE47 /* Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9444AF1DA96565007ADE47 /* Tree.swift */; };
-		CD9444B11DA96565007ADE47 /* Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9444AF1DA96565007ADE47 /* Tree.swift */; };
-		CD9444B21DA96565007ADE47 /* Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9444AF1DA96565007ADE47 /* Tree.swift */; };
-		CD9444B31DA96565007ADE47 /* Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9444AF1DA96565007ADE47 /* Tree.swift */; };
-		CD9444BA1DAA4D99007ADE47 /* BlockParsing.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9444B91DAA4D99007ADE47 /* BlockParsing.swift */; };
-		CD9444BB1DAA4D99007ADE47 /* BlockParsing.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9444B91DAA4D99007ADE47 /* BlockParsing.swift */; };
-		CD9444BC1DAA4D99007ADE47 /* BlockParsing.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9444B91DAA4D99007ADE47 /* BlockParsing.swift */; };
-		CD9444BD1DAA4D99007ADE47 /* BlockParsing.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9444B91DAA4D99007ADE47 /* BlockParsing.swift */; };
-		CD9444BF1DAA8443007ADE47 /* BlockAST.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9444BE1DAA8443007ADE47 /* BlockAST.swift */; };
-		CD9444C01DAA8443007ADE47 /* BlockAST.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9444BE1DAA8443007ADE47 /* BlockAST.swift */; };
-		CD9444C11DAA8443007ADE47 /* BlockAST.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9444BE1DAA8443007ADE47 /* BlockAST.swift */; };
-		CD9444C21DAA8443007ADE47 /* BlockAST.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9444BE1DAA8443007ADE47 /* BlockAST.swift */; };
+		OBJ_49 /* Apodimark.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* Apodimark.swift */; };
+		OBJ_50 /* MarkdownParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_10 /* MarkdownParser.swift */; };
+		OBJ_51 /* MarkdownParserCodec.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_11 /* MarkdownParserCodec.swift */; };
+		OBJ_52 /* BlockAST.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_13 /* BlockAST.swift */; };
+		OBJ_53 /* BlockParsing.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_14 /* BlockParsing.swift */; };
+		OBJ_54 /* LineLexer.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_15 /* LineLexer.swift */; };
+		OBJ_55 /* LineLexerStructures.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_16 /* LineLexerStructures.swift */; };
+		OBJ_56 /* Ordering.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_18 /* Ordering.swift */; };
+		OBJ_57 /* Scanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_19 /* Scanner.swift */; };
+		OBJ_58 /* Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_20 /* Tree.swift */; };
+		OBJ_59 /* InlineAST.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_22 /* InlineAST.swift */; };
+		OBJ_60 /* InlineNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_23 /* InlineNode.swift */; };
+		OBJ_61 /* InlineParsing.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_24 /* InlineParsing.swift */; };
+		OBJ_62 /* InlineParsingStructures.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_25 /* InlineParsingStructures.swift */; };
+		OBJ_63 /* ProcessEmphasis.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_27 /* ProcessEmphasis.swift */; };
+		OBJ_64 /* ProcessEscapingBackslashes.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_28 /* ProcessEscapingBackslashes.swift */; };
+		OBJ_65 /* ProcessMonospacedText.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_29 /* ProcessMonospacedText.swift */; };
+		OBJ_66 /* ProcessReference.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_30 /* ProcessReference.swift */; };
+		OBJ_67 /* ProcessText.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_31 /* ProcessText.swift */; };
+		OBJ_74 /* ApodimarkOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_34 /* ApodimarkOutput.swift */; };
+		OBJ_75 /* CommonMarkConformanceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_35 /* CommonMarkConformanceTests.swift */; };
+		OBJ_77 /* Apodimark.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_41 /* Apodimark.framework */; };
+		OBJ_84 /* PerformanceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_37 /* PerformanceTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		CD1CCFA31DA68BCB00D3AEAF /* PBXContainerItemProxy */ = {
+		801D748D1DD3C37D005448B5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = CD1CCF8F1DA68BCA00D3AEAF /* Project object */;
+			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CD1CCF971DA68BCB00D3AEAF;
+			remoteGlobalIDString = OBJ_44;
 			remoteInfo = Apodimark;
-		};
-		CD1CD0601DA693E100D3AEAF /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = CD1CCF8F1DA68BCA00D3AEAF /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = CD1CCF971DA68BCB00D3AEAF;
-			remoteInfo = macOS;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		CD048D5D1DB27FF8006D4C1D /* InlineAST.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InlineAST.swift; sourceTree = "<group>"; };
-		CD04A83D1DBEC0C700EB1925 /* ProcessEscapingBackslashes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProcessEscapingBackslashes.swift; sourceTree = "<group>"; };
-		CD1CCF981DA68BCB00D3AEAF /* Apodimark.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Apodimark.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CD1CCFA11DA68BCB00D3AEAF /* Apodimark-UnitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Apodimark-UnitTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CD1CCFE31DA68D1700D3AEAF /* Apodimark.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Apodimark.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CD1CD0121DA68DBD00D3AEAF /* Apodimark.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Apodimark.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CD1CD0321DA68F5600D3AEAF /* Apodimark.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Apodimark.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CD1CD05A1DA693E100D3AEAF /* PerformanceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PerformanceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		CD1CD0661DA6961300D3AEAF /* Apodimark.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Apodimark.swift; path = Apodimark/Apodimark.swift; sourceTree = "<group>"; };
-		CD1CD0701DA6961300D3AEAF /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Apodimark/Info.plist; sourceTree = "<group>"; };
-		CD1CD07C1DA6961300D3AEAF /* MarkdownParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MarkdownParser.swift; path = Apodimark/MarkdownParser.swift; sourceTree = "<group>"; };
-		CD1CD07D1DA6961300D3AEAF /* MarkdownParserCodec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MarkdownParserCodec.swift; path = Apodimark/MarkdownParserCodec.swift; sourceTree = "<group>"; };
-		CD1CD0CE1DA6968C00D3AEAF /* ApodimarkOutput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ApodimarkOutput.swift; path = UnitTests/ApodimarkOutput.swift; sourceTree = "<group>"; };
-		CD1CD0CF1DA6968C00D3AEAF /* CommonMarkConformanceTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CommonMarkConformanceTests.swift; path = UnitTests/CommonMarkConformanceTests.swift; sourceTree = "<group>"; };
-		CD1CD0D01DA6968C00D3AEAF /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = UnitTests/Info.plist; sourceTree = "<group>"; };
-		CD1CD0D41DA696A100D3AEAF /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Tests/PerformanceTests/Info.plist; sourceTree = SOURCE_ROOT; };
-		CD1CD0D51DA696A100D3AEAF /* PerformanceTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PerformanceTests.swift; path = Tests/PerformanceTests/PerformanceTests.swift; sourceTree = SOURCE_ROOT; };
-		CD1CD12B1DA6CF7A00D3AEAF /* LineLexer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LineLexer.swift; sourceTree = "<group>"; };
-		CD1CD12C1DA6CF7A00D3AEAF /* LineLexerStructures.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LineLexerStructures.swift; sourceTree = "<group>"; };
-		CD1CD12F1DA6CF7A00D3AEAF /* Ordering.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ordering.swift; sourceTree = "<group>"; };
-		CD1CD1301DA6CF7A00D3AEAF /* Scanner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Scanner.swift; sourceTree = "<group>"; };
-		CD1CD1341DA6CF7A00D3AEAF /* ProcessEmphasis.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProcessEmphasis.swift; sourceTree = "<group>"; };
-		CD1CD1351DA6CF7A00D3AEAF /* ProcessMonospacedText.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProcessMonospacedText.swift; sourceTree = "<group>"; };
-		CD1CD1361DA6CF7A00D3AEAF /* ProcessReference.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProcessReference.swift; sourceTree = "<group>"; };
-		CD1CD1371DA6CF7A00D3AEAF /* ProcessText.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProcessText.swift; sourceTree = "<group>"; };
-		CD1CD1391DA6CF7A00D3AEAF /* InlineNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InlineNode.swift; sourceTree = "<group>"; };
-		CD1CD13A1DA6CF7A00D3AEAF /* InlineParsing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InlineParsing.swift; sourceTree = "<group>"; };
-		CD1CD13B1DA6CF7A00D3AEAF /* InlineParsingStructures.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InlineParsingStructures.swift; sourceTree = "<group>"; };
-		CD9444AF1DA96565007ADE47 /* Tree.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tree.swift; sourceTree = "<group>"; };
-		CD9444B91DAA4D99007ADE47 /* BlockParsing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlockParsing.swift; sourceTree = "<group>"; };
-		CD9444BE1DAA8443007ADE47 /* BlockAST.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlockAST.swift; sourceTree = "<group>"; };
+		OBJ_10 /* MarkdownParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkdownParser.swift; sourceTree = "<group>"; };
+		OBJ_11 /* MarkdownParserCodec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkdownParserCodec.swift; sourceTree = "<group>"; };
+		OBJ_13 /* BlockAST.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlockAST.swift; sourceTree = "<group>"; };
+		OBJ_14 /* BlockParsing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlockParsing.swift; sourceTree = "<group>"; };
+		OBJ_15 /* LineLexer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineLexer.swift; sourceTree = "<group>"; };
+		OBJ_16 /* LineLexerStructures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineLexerStructures.swift; sourceTree = "<group>"; };
+		OBJ_18 /* Ordering.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ordering.swift; sourceTree = "<group>"; };
+		OBJ_19 /* Scanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scanner.swift; sourceTree = "<group>"; };
+		OBJ_20 /* Tree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tree.swift; sourceTree = "<group>"; };
+		OBJ_22 /* InlineAST.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InlineAST.swift; sourceTree = "<group>"; };
+		OBJ_23 /* InlineNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InlineNode.swift; sourceTree = "<group>"; };
+		OBJ_24 /* InlineParsing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InlineParsing.swift; sourceTree = "<group>"; };
+		OBJ_25 /* InlineParsingStructures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InlineParsingStructures.swift; sourceTree = "<group>"; };
+		OBJ_27 /* ProcessEmphasis.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProcessEmphasis.swift; sourceTree = "<group>"; };
+		OBJ_28 /* ProcessEscapingBackslashes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProcessEscapingBackslashes.swift; sourceTree = "<group>"; };
+		OBJ_29 /* ProcessMonospacedText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProcessMonospacedText.swift; sourceTree = "<group>"; };
+		OBJ_30 /* ProcessReference.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProcessReference.swift; sourceTree = "<group>"; };
+		OBJ_31 /* ProcessText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProcessText.swift; sourceTree = "<group>"; };
+		OBJ_34 /* ApodimarkOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApodimarkOutput.swift; sourceTree = "<group>"; };
+		OBJ_35 /* CommonMarkConformanceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonMarkConformanceTests.swift; sourceTree = "<group>"; };
+		OBJ_37 /* PerformanceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerformanceTests.swift; sourceTree = "<group>"; };
+		OBJ_38 /* internal */ = {isa = PBXFileReference; lastKnownFileType = folder; path = internal; sourceTree = SOURCE_ROOT; };
+		OBJ_39 /* test-files */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "test-files"; sourceTree = SOURCE_ROOT; };
+		OBJ_41 /* Apodimark.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Apodimark.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		OBJ_42 /* ApodimarkTests.xctest */ = {isa = PBXFileReference; lastKnownFileType = file; path = ApodimarkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		OBJ_43 /* PerformanceTests.xctest */ = {isa = PBXFileReference; lastKnownFileType = file; path = PerformanceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		OBJ_9 /* Apodimark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apodimark.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		CD1CCF941DA68BCB00D3AEAF /* Frameworks */ = {
+		OBJ_68 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 0;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CD1CCF9E1DA68BCB00D3AEAF /* Frameworks */ = {
+		OBJ_76 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 0;
 			files = (
-				CD1CCFA21DA68BCB00D3AEAF /* Apodimark.framework in Frameworks */,
+				OBJ_77 /* Apodimark.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CD1CCFDF1DA68D1700D3AEAF /* Frameworks */ = {
+		OBJ_85 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 0;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CD1CD00E1DA68DBD00D3AEAF /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CD1CD02E1DA68F5600D3AEAF /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CD1CD0571DA693E100D3AEAF /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CD1CD05F1DA693E100D3AEAF /* Apodimark.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		CD1CCF8E1DA68BCA00D3AEAF = {
+		OBJ_12 /* BlockParsing */ = {
 			isa = PBXGroup;
 			children = (
-				CD1CCF9A1DA68BCB00D3AEAF /* Apodimark */,
-				CD1CCFA51DA68BCB00D3AEAF /* UnitTests */,
-				CD1CD05B1DA693E100D3AEAF /* PerformanceTests */,
-				CD1CCF991DA68BCB00D3AEAF /* Products */,
+				OBJ_13 /* BlockAST.swift */,
+				OBJ_14 /* BlockParsing.swift */,
+				OBJ_15 /* LineLexer.swift */,
+				OBJ_16 /* LineLexerStructures.swift */,
 			);
+			path = BlockParsing;
 			sourceTree = "<group>";
 		};
-		CD1CCF991DA68BCB00D3AEAF /* Products */ = {
+		OBJ_17 /* DataStructures */ = {
 			isa = PBXGroup;
 			children = (
-				CD1CCF981DA68BCB00D3AEAF /* Apodimark.framework */,
-				CD1CCFA11DA68BCB00D3AEAF /* Apodimark-UnitTests.xctest */,
-				CD1CCFE31DA68D1700D3AEAF /* Apodimark.framework */,
-				CD1CD0121DA68DBD00D3AEAF /* Apodimark.framework */,
-				CD1CD0321DA68F5600D3AEAF /* Apodimark.framework */,
-				CD1CD05A1DA693E100D3AEAF /* PerformanceTests.xctest */,
+				OBJ_18 /* Ordering.swift */,
+				OBJ_19 /* Scanner.swift */,
+				OBJ_20 /* Tree.swift */,
 			);
-			name = Products;
+			path = DataStructures;
 			sourceTree = "<group>";
 		};
-		CD1CCF9A1DA68BCB00D3AEAF /* Apodimark */ = {
+		OBJ_21 /* InlineParsing */ = {
 			isa = PBXGroup;
 			children = (
-				CD1CD0701DA6961300D3AEAF /* Info.plist */,
-				CD1CD0661DA6961300D3AEAF /* Apodimark.swift */,
-				CD1CD07C1DA6961300D3AEAF /* MarkdownParser.swift */,
-				CD1CD07D1DA6961300D3AEAF /* MarkdownParserCodec.swift */,
-				CD1CD12D1DA6CF7A00D3AEAF /* DataStructures */,
-				CD1CD1281DA6CF7A00D3AEAF /* BlockParsing */,
-				CD1CD1311DA6CF7A00D3AEAF /* InlineParsing */,
+				OBJ_22 /* InlineAST.swift */,
+				OBJ_23 /* InlineNode.swift */,
+				OBJ_24 /* InlineParsing.swift */,
+				OBJ_25 /* InlineParsingStructures.swift */,
+				OBJ_26 /* DelimiterArray */,
 			);
-			name = Apodimark;
-			path = Sources;
+			path = InlineParsing;
 			sourceTree = "<group>";
 		};
-		CD1CCFA51DA68BCB00D3AEAF /* UnitTests */ = {
+		OBJ_26 /* DelimiterArray */ = {
 			isa = PBXGroup;
 			children = (
-				CD1CD0CE1DA6968C00D3AEAF /* ApodimarkOutput.swift */,
-				CD1CD0CF1DA6968C00D3AEAF /* CommonMarkConformanceTests.swift */,
-				CD1CD0D01DA6968C00D3AEAF /* Info.plist */,
-			);
-			name = UnitTests;
-			path = Tests;
-			sourceTree = "<group>";
-		};
-		CD1CD05B1DA693E100D3AEAF /* PerformanceTests */ = {
-			isa = PBXGroup;
-			children = (
-				CD1CD0D41DA696A100D3AEAF /* Info.plist */,
-				CD1CD0D51DA696A100D3AEAF /* PerformanceTests.swift */,
-			);
-			path = PerformanceTests;
-			sourceTree = "<group>";
-		};
-		CD1CD1281DA6CF7A00D3AEAF /* BlockParsing */ = {
-			isa = PBXGroup;
-			children = (
-				CD9444B91DAA4D99007ADE47 /* BlockParsing.swift */,
-				CD9444BE1DAA8443007ADE47 /* BlockAST.swift */,
-				CD1CD12B1DA6CF7A00D3AEAF /* LineLexer.swift */,
-				CD1CD12C1DA6CF7A00D3AEAF /* LineLexerStructures.swift */,
-			);
-			name = BlockParsing;
-			path = Apodimark/BlockParsing;
-			sourceTree = "<group>";
-		};
-		CD1CD12D1DA6CF7A00D3AEAF /* DataStructures */ = {
-			isa = PBXGroup;
-			children = (
-				CD9444AF1DA96565007ADE47 /* Tree.swift */,
-				CD1CD12F1DA6CF7A00D3AEAF /* Ordering.swift */,
-				CD1CD1301DA6CF7A00D3AEAF /* Scanner.swift */,
-			);
-			name = DataStructures;
-			path = Apodimark/DataStructures;
-			sourceTree = "<group>";
-		};
-		CD1CD1311DA6CF7A00D3AEAF /* InlineParsing */ = {
-			isa = PBXGroup;
-			children = (
-				CD1CD1321DA6CF7A00D3AEAF /* DelimiterArray */,
-				CD048D5D1DB27FF8006D4C1D /* InlineAST.swift */,
-				CD1CD1391DA6CF7A00D3AEAF /* InlineNode.swift */,
-				CD1CD13A1DA6CF7A00D3AEAF /* InlineParsing.swift */,
-				CD1CD13B1DA6CF7A00D3AEAF /* InlineParsingStructures.swift */,
-			);
-			name = InlineParsing;
-			path = Apodimark/InlineParsing;
-			sourceTree = "<group>";
-		};
-		CD1CD1321DA6CF7A00D3AEAF /* DelimiterArray */ = {
-			isa = PBXGroup;
-			children = (
-				CD04A83D1DBEC0C700EB1925 /* ProcessEscapingBackslashes.swift */,
-				CD1CD1341DA6CF7A00D3AEAF /* ProcessEmphasis.swift */,
-				CD1CD1351DA6CF7A00D3AEAF /* ProcessMonospacedText.swift */,
-				CD1CD1361DA6CF7A00D3AEAF /* ProcessReference.swift */,
-				CD1CD1371DA6CF7A00D3AEAF /* ProcessText.swift */,
+				OBJ_27 /* ProcessEmphasis.swift */,
+				OBJ_28 /* ProcessEscapingBackslashes.swift */,
+				OBJ_29 /* ProcessMonospacedText.swift */,
+				OBJ_30 /* ProcessReference.swift */,
+				OBJ_31 /* ProcessText.swift */,
 			);
 			path = DelimiterArray;
 			sourceTree = "<group>";
 		};
+		OBJ_32 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_33 /* ApodimarkTests */,
+				OBJ_36 /* PerformanceTests */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		OBJ_33 /* ApodimarkTests */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_34 /* ApodimarkOutput.swift */,
+				OBJ_35 /* CommonMarkConformanceTests.swift */,
+			);
+			name = ApodimarkTests;
+			path = Tests/ApodimarkTests;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_36 /* PerformanceTests */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_37 /* PerformanceTests.swift */,
+			);
+			name = PerformanceTests;
+			path = Tests/PerformanceTests;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_40 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_41 /* Apodimark.framework */,
+				OBJ_42 /* ApodimarkTests.xctest */,
+				OBJ_43 /* PerformanceTests.xctest */,
+			);
+			name = Products;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		OBJ_5 /*  */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_6 /* Package.swift */,
+				OBJ_7 /* Sources */,
+				OBJ_32 /* Tests */,
+				OBJ_38 /* internal */,
+				OBJ_39 /* test-files */,
+				OBJ_40 /* Products */,
+			);
+			name = "";
+			sourceTree = "<group>";
+		};
+		OBJ_7 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_8 /* Apodimark */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		OBJ_8 /* Apodimark */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_9 /* Apodimark.swift */,
+				OBJ_10 /* MarkdownParser.swift */,
+				OBJ_11 /* MarkdownParserCodec.swift */,
+				OBJ_12 /* BlockParsing */,
+				OBJ_17 /* DataStructures */,
+				OBJ_21 /* InlineParsing */,
+			);
+			name = Apodimark;
+			path = Sources/Apodimark;
+			sourceTree = SOURCE_ROOT;
+		};
 /* End PBXGroup section */
 
-/* Begin PBXHeadersBuildPhase section */
-		CD1CCF951DA68BCB00D3AEAF /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CD1CCFE01DA68D1700D3AEAF /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CD1CD00F1DA68DBD00D3AEAF /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CD1CD02F1DA68F5600D3AEAF /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXHeadersBuildPhase section */
-
 /* Begin PBXNativeTarget section */
-		CD1CCF971DA68BCB00D3AEAF /* Apodimark-macOS */ = {
+		OBJ_44 /* Apodimark */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CD1CCFAC1DA68BCB00D3AEAF /* Build configuration list for PBXNativeTarget "Apodimark-macOS" */;
+			buildConfigurationList = OBJ_45 /* Build configuration list for PBXNativeTarget "Apodimark" */;
 			buildPhases = (
-				CD1CCF931DA68BCB00D3AEAF /* Sources */,
-				CD1CCF941DA68BCB00D3AEAF /* Frameworks */,
-				CD1CCF951DA68BCB00D3AEAF /* Headers */,
-				CD1CCF961DA68BCB00D3AEAF /* Resources */,
+				OBJ_48 /* Sources */,
+				OBJ_68 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Apodimark-macOS";
+			name = Apodimark;
 			productName = Apodimark;
-			productReference = CD1CCF981DA68BCB00D3AEAF /* Apodimark.framework */;
+			productReference = OBJ_41 /* Apodimark.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		CD1CCFA01DA68BCB00D3AEAF /* Apodimark-UnitTests */ = {
+		OBJ_69 /* ApodimarkTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CD1CCFAF1DA68BCB00D3AEAF /* Build configuration list for PBXNativeTarget "Apodimark-UnitTests" */;
+			buildConfigurationList = OBJ_70 /* Build configuration list for PBXNativeTarget "ApodimarkTests" */;
 			buildPhases = (
-				CD1CCF9D1DA68BCB00D3AEAF /* Sources */,
-				CD1CCF9E1DA68BCB00D3AEAF /* Frameworks */,
-				CD1CCF9F1DA68BCB00D3AEAF /* Resources */,
+				OBJ_73 /* Sources */,
+				OBJ_76 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				CD1CCFA41DA68BCB00D3AEAF /* PBXTargetDependency */,
+				OBJ_78 /* PBXTargetDependency */,
 			);
-			name = "Apodimark-UnitTests";
+			name = ApodimarkTests;
 			productName = ApodimarkTests;
-			productReference = CD1CCFA11DA68BCB00D3AEAF /* Apodimark-UnitTests.xctest */;
+			productReference = OBJ_42 /* ApodimarkTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		CD1CCFE21DA68D1700D3AEAF /* Apodimark-iOS */ = {
+		OBJ_79 /* PerformanceTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CD1CCFF41DA68D1700D3AEAF /* Build configuration list for PBXNativeTarget "Apodimark-iOS" */;
+			buildConfigurationList = OBJ_80 /* Build configuration list for PBXNativeTarget "PerformanceTests" */;
 			buildPhases = (
-				CD1CCFDE1DA68D1700D3AEAF /* Sources */,
-				CD1CCFDF1DA68D1700D3AEAF /* Frameworks */,
-				CD1CCFE01DA68D1700D3AEAF /* Headers */,
-				CD1CCFE11DA68D1700D3AEAF /* Resources */,
+				OBJ_83 /* Sources */,
+				OBJ_85 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Apodimark-iOS";
-			productName = "Apodimark-iOS";
-			productReference = CD1CCFE31DA68D1700D3AEAF /* Apodimark.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		CD1CD0111DA68DBD00D3AEAF /* Apodimark-watchOS */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = CD1CD0171DA68DBD00D3AEAF /* Build configuration list for PBXNativeTarget "Apodimark-watchOS" */;
-			buildPhases = (
-				CD1CD00D1DA68DBD00D3AEAF /* Sources */,
-				CD1CD00E1DA68DBD00D3AEAF /* Frameworks */,
-				CD1CD00F1DA68DBD00D3AEAF /* Headers */,
-				CD1CD0101DA68DBD00D3AEAF /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Apodimark-watchOS";
-			productName = watchOS;
-			productReference = CD1CD0121DA68DBD00D3AEAF /* Apodimark.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		CD1CD0311DA68F5600D3AEAF /* Apodimark-tvOS */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = CD1CD0371DA68F5700D3AEAF /* Build configuration list for PBXNativeTarget "Apodimark-tvOS" */;
-			buildPhases = (
-				CD1CD02D1DA68F5600D3AEAF /* Sources */,
-				CD1CD02E1DA68F5600D3AEAF /* Frameworks */,
-				CD1CD02F1DA68F5600D3AEAF /* Headers */,
-				CD1CD0301DA68F5600D3AEAF /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Apodimark-tvOS";
-			productName = tvOS;
-			productReference = CD1CD0321DA68F5600D3AEAF /* Apodimark.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		CD1CD0591DA693E100D3AEAF /* Apodimark-PerformanceTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = CD1CD0621DA693E100D3AEAF /* Build configuration list for PBXNativeTarget "Apodimark-PerformanceTests" */;
-			buildPhases = (
-				CD1CD0561DA693E100D3AEAF /* Sources */,
-				CD1CD0571DA693E100D3AEAF /* Frameworks */,
-				CD1CD0581DA693E100D3AEAF /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				CD1CD0611DA693E100D3AEAF /* PBXTargetDependency */,
-			);
-			name = "Apodimark-PerformanceTests";
+			name = PerformanceTests;
 			productName = PerformanceTests;
-			productReference = CD1CD05A1DA693E100D3AEAF /* PerformanceTests.xctest */;
+			productReference = OBJ_43 /* PerformanceTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		CD1CCF8F1DA68BCA00D3AEAF /* Project object */ = {
+		OBJ_1 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0800;
-				LastUpgradeCheck = 0800;
-				ORGANIZATIONNAME = "Loïc Lecrenier";
-				TargetAttributes = {
-					CD1CCF971DA68BCB00D3AEAF = {
-						CreatedOnToolsVersion = 8.0;
-						LastSwiftMigration = 0800;
-						ProvisioningStyle = Automatic;
-					};
-					CD1CCFA01DA68BCB00D3AEAF = {
-						CreatedOnToolsVersion = 8.0;
-						LastSwiftMigration = 0800;
-						ProvisioningStyle = Automatic;
-					};
-					CD1CCFE21DA68D1700D3AEAF = {
-						CreatedOnToolsVersion = 8.0;
-						LastSwiftMigration = 0800;
-						ProvisioningStyle = Automatic;
-					};
-					CD1CD0111DA68DBD00D3AEAF = {
-						CreatedOnToolsVersion = 8.0;
-						LastSwiftMigration = 0800;
-						ProvisioningStyle = Automatic;
-					};
-					CD1CD0311DA68F5600D3AEAF = {
-						CreatedOnToolsVersion = 8.0;
-						LastSwiftMigration = 0800;
-						ProvisioningStyle = Automatic;
-					};
-					CD1CD0591DA693E100D3AEAF = {
-						CreatedOnToolsVersion = 8.0;
-						LastSwiftMigration = 0800;
-						ProvisioningStyle = Automatic;
-					};
-				};
+				LastUpgradeCheck = 9999;
 			};
-			buildConfigurationList = CD1CCF921DA68BCA00D3AEAF /* Build configuration list for PBXProject "Apodimark" */;
+			buildConfigurationList = OBJ_2 /* Build configuration list for PBXProject "Apodimark" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
-				Base,
 			);
-			mainGroup = CD1CCF8E1DA68BCA00D3AEAF;
-			productRefGroup = CD1CCF991DA68BCB00D3AEAF /* Products */;
+			mainGroup = OBJ_5 /*  */;
+			productRefGroup = OBJ_40 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CD1CCF971DA68BCB00D3AEAF /* Apodimark-macOS */,
-				CD1CCFE21DA68D1700D3AEAF /* Apodimark-iOS */,
-				CD1CD0111DA68DBD00D3AEAF /* Apodimark-watchOS */,
-				CD1CD0311DA68F5600D3AEAF /* Apodimark-tvOS */,
-				CD1CCFA01DA68BCB00D3AEAF /* Apodimark-UnitTests */,
-				CD1CD0591DA693E100D3AEAF /* Apodimark-PerformanceTests */,
+				OBJ_44 /* Apodimark */,
+				OBJ_69 /* ApodimarkTests */,
+				OBJ_79 /* PerformanceTests */,
 			);
 		};
 /* End PBXProject section */
 
-/* Begin PBXResourcesBuildPhase section */
-		CD1CCF961DA68BCB00D3AEAF /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CD1CD09E1DA6961300D3AEAF /* Info.plist in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CD1CCF9F1DA68BCB00D3AEAF /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CD1CCFE11DA68D1700D3AEAF /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CD1CD09F1DA6961300D3AEAF /* Info.plist in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CD1CD0101DA68DBD00D3AEAF /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CD1CD0A01DA6961300D3AEAF /* Info.plist in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CD1CD0301DA68F5600D3AEAF /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CD1CD0A11DA6961300D3AEAF /* Info.plist in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CD1CD0581DA693E100D3AEAF /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXResourcesBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
-		CD1CCF931DA68BCB00D3AEAF /* Sources */ = {
+		OBJ_48 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 0;
 			files = (
-				CD9444BA1DAA4D99007ADE47 /* BlockParsing.swift in Sources */,
-				CD1CD15C1DA6CF7A00D3AEAF /* ProcessEmphasis.swift in Sources */,
-				CD1CD0C61DA6961300D3AEAF /* MarkdownParser.swift in Sources */,
-				CD1CD0CA1DA6961300D3AEAF /* MarkdownParserCodec.swift in Sources */,
-				CD9444B01DA96565007ADE47 /* Tree.swift in Sources */,
-				CD1CD1741DA6CF7A00D3AEAF /* InlineParsing.swift in Sources */,
-				CD1CD1601DA6CF7A00D3AEAF /* ProcessMonospacedText.swift in Sources */,
-				CD1CD1501DA6CF7A00D3AEAF /* Ordering.swift in Sources */,
-				CD9444BF1DAA8443007ADE47 /* BlockAST.swift in Sources */,
-				CD1CD1481DA6CF7A00D3AEAF /* LineLexerStructures.swift in Sources */,
-				CD1CD1441DA6CF7A00D3AEAF /* LineLexer.swift in Sources */,
-				CD048D5E1DB27FF8006D4C1D /* InlineAST.swift in Sources */,
-				CD1CD1701DA6CF7A00D3AEAF /* InlineNode.swift in Sources */,
-				CD1CD1681DA6CF7A00D3AEAF /* ProcessText.swift in Sources */,
-				CD1CD1781DA6CF7A00D3AEAF /* InlineParsingStructures.swift in Sources */,
-				CD1CD1641DA6CF7A00D3AEAF /* ProcessReference.swift in Sources */,
-				CD1CD1541DA6CF7A00D3AEAF /* Scanner.swift in Sources */,
-				CD1CD07E1DA6961300D3AEAF /* Apodimark.swift in Sources */,
-				CD04A83E1DBEC0C700EB1925 /* ProcessEscapingBackslashes.swift in Sources */,
+				OBJ_49 /* Apodimark.swift in Sources */,
+				OBJ_50 /* MarkdownParser.swift in Sources */,
+				OBJ_51 /* MarkdownParserCodec.swift in Sources */,
+				OBJ_52 /* BlockAST.swift in Sources */,
+				OBJ_53 /* BlockParsing.swift in Sources */,
+				OBJ_54 /* LineLexer.swift in Sources */,
+				OBJ_55 /* LineLexerStructures.swift in Sources */,
+				OBJ_56 /* Ordering.swift in Sources */,
+				OBJ_57 /* Scanner.swift in Sources */,
+				OBJ_58 /* Tree.swift in Sources */,
+				OBJ_59 /* InlineAST.swift in Sources */,
+				OBJ_60 /* InlineNode.swift in Sources */,
+				OBJ_61 /* InlineParsing.swift in Sources */,
+				OBJ_62 /* InlineParsingStructures.swift in Sources */,
+				OBJ_63 /* ProcessEmphasis.swift in Sources */,
+				OBJ_64 /* ProcessEscapingBackslashes.swift in Sources */,
+				OBJ_65 /* ProcessMonospacedText.swift in Sources */,
+				OBJ_66 /* ProcessReference.swift in Sources */,
+				OBJ_67 /* ProcessText.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CD1CCF9D1DA68BCB00D3AEAF /* Sources */ = {
+		OBJ_73 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 0;
 			files = (
-				CD1CD0D21DA6968C00D3AEAF /* CommonMarkConformanceTests.swift in Sources */,
-				CD1CD0D11DA6968C00D3AEAF /* ApodimarkOutput.swift in Sources */,
+				OBJ_74 /* ApodimarkOutput.swift in Sources */,
+				OBJ_75 /* CommonMarkConformanceTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CD1CCFDE1DA68D1700D3AEAF /* Sources */ = {
+		OBJ_83 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 0;
 			files = (
-				CD9444BB1DAA4D99007ADE47 /* BlockParsing.swift in Sources */,
-				CD1CD15D1DA6CF7A00D3AEAF /* ProcessEmphasis.swift in Sources */,
-				CD1CD0C71DA6961300D3AEAF /* MarkdownParser.swift in Sources */,
-				CD1CD0CB1DA6961300D3AEAF /* MarkdownParserCodec.swift in Sources */,
-				CD9444B11DA96565007ADE47 /* Tree.swift in Sources */,
-				CD1CD1751DA6CF7A00D3AEAF /* InlineParsing.swift in Sources */,
-				CD1CD1611DA6CF7A00D3AEAF /* ProcessMonospacedText.swift in Sources */,
-				CD1CD1511DA6CF7A00D3AEAF /* Ordering.swift in Sources */,
-				CD9444C01DAA8443007ADE47 /* BlockAST.swift in Sources */,
-				CD1CD1491DA6CF7A00D3AEAF /* LineLexerStructures.swift in Sources */,
-				CD1CD1451DA6CF7A00D3AEAF /* LineLexer.swift in Sources */,
-				CD048D5F1DB27FF8006D4C1D /* InlineAST.swift in Sources */,
-				CD1CD1711DA6CF7A00D3AEAF /* InlineNode.swift in Sources */,
-				CD1CD1691DA6CF7A00D3AEAF /* ProcessText.swift in Sources */,
-				CD1CD1791DA6CF7A00D3AEAF /* InlineParsingStructures.swift in Sources */,
-				CD1CD1651DA6CF7A00D3AEAF /* ProcessReference.swift in Sources */,
-				CD1CD1551DA6CF7A00D3AEAF /* Scanner.swift in Sources */,
-				CD1CD07F1DA6961300D3AEAF /* Apodimark.swift in Sources */,
-				CD04A83F1DBEC0C700EB1925 /* ProcessEscapingBackslashes.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CD1CD00D1DA68DBD00D3AEAF /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CD9444BC1DAA4D99007ADE47 /* BlockParsing.swift in Sources */,
-				CD1CD15E1DA6CF7A00D3AEAF /* ProcessEmphasis.swift in Sources */,
-				CD1CD0C81DA6961300D3AEAF /* MarkdownParser.swift in Sources */,
-				CD1CD0CC1DA6961300D3AEAF /* MarkdownParserCodec.swift in Sources */,
-				CD9444B21DA96565007ADE47 /* Tree.swift in Sources */,
-				CD1CD1761DA6CF7A00D3AEAF /* InlineParsing.swift in Sources */,
-				CD1CD1621DA6CF7A00D3AEAF /* ProcessMonospacedText.swift in Sources */,
-				CD1CD1521DA6CF7A00D3AEAF /* Ordering.swift in Sources */,
-				CD9444C11DAA8443007ADE47 /* BlockAST.swift in Sources */,
-				CD1CD14A1DA6CF7A00D3AEAF /* LineLexerStructures.swift in Sources */,
-				CD1CD1461DA6CF7A00D3AEAF /* LineLexer.swift in Sources */,
-				CD048D601DB27FF8006D4C1D /* InlineAST.swift in Sources */,
-				CD1CD1721DA6CF7A00D3AEAF /* InlineNode.swift in Sources */,
-				CD1CD16A1DA6CF7A00D3AEAF /* ProcessText.swift in Sources */,
-				CD1CD17A1DA6CF7A00D3AEAF /* InlineParsingStructures.swift in Sources */,
-				CD1CD1661DA6CF7A00D3AEAF /* ProcessReference.swift in Sources */,
-				CD1CD1561DA6CF7A00D3AEAF /* Scanner.swift in Sources */,
-				CD1CD0801DA6961300D3AEAF /* Apodimark.swift in Sources */,
-				CD04A8401DBEC0C700EB1925 /* ProcessEscapingBackslashes.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CD1CD02D1DA68F5600D3AEAF /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CD9444BD1DAA4D99007ADE47 /* BlockParsing.swift in Sources */,
-				CD1CD15F1DA6CF7A00D3AEAF /* ProcessEmphasis.swift in Sources */,
-				CD1CD0C91DA6961300D3AEAF /* MarkdownParser.swift in Sources */,
-				CD1CD0CD1DA6961300D3AEAF /* MarkdownParserCodec.swift in Sources */,
-				CD9444B31DA96565007ADE47 /* Tree.swift in Sources */,
-				CD1CD1771DA6CF7A00D3AEAF /* InlineParsing.swift in Sources */,
-				CD1CD1631DA6CF7A00D3AEAF /* ProcessMonospacedText.swift in Sources */,
-				CD1CD1531DA6CF7A00D3AEAF /* Ordering.swift in Sources */,
-				CD9444C21DAA8443007ADE47 /* BlockAST.swift in Sources */,
-				CD1CD14B1DA6CF7A00D3AEAF /* LineLexerStructures.swift in Sources */,
-				CD1CD1471DA6CF7A00D3AEAF /* LineLexer.swift in Sources */,
-				CD048D611DB27FF8006D4C1D /* InlineAST.swift in Sources */,
-				CD1CD1731DA6CF7A00D3AEAF /* InlineNode.swift in Sources */,
-				CD1CD16B1DA6CF7A00D3AEAF /* ProcessText.swift in Sources */,
-				CD1CD17B1DA6CF7A00D3AEAF /* InlineParsingStructures.swift in Sources */,
-				CD1CD1671DA6CF7A00D3AEAF /* ProcessReference.swift in Sources */,
-				CD1CD1571DA6CF7A00D3AEAF /* Scanner.swift in Sources */,
-				CD1CD0811DA6961300D3AEAF /* Apodimark.swift in Sources */,
-				CD04A8411DBEC0C700EB1925 /* ProcessEscapingBackslashes.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CD1CD0561DA693E100D3AEAF /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CD1CD0D71DA696A100D3AEAF /* PerformanceTests.swift in Sources */,
+				OBJ_84 /* PerformanceTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		CD1CCFA41DA68BCB00D3AEAF /* PBXTargetDependency */ = {
+		OBJ_78 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = CD1CCF971DA68BCB00D3AEAF /* Apodimark-macOS */;
-			targetProxy = CD1CCFA31DA68BCB00D3AEAF /* PBXContainerItemProxy */;
-		};
-		CD1CD0611DA693E100D3AEAF /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = CD1CCF971DA68BCB00D3AEAF /* Apodimark-macOS */;
-			targetProxy = CD1CD0601DA693E100D3AEAF /* PBXContainerItemProxy */;
+			target = OBJ_44 /* Apodimark */;
+			targetProxy = 801D748D1DD3C37D005448B5 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		CD1CCFAA1DA68BCB00D3AEAF /* Debug */ = {
+		OBJ_3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_SUSPICIOUS_MOVES = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_NO_COMMON_BLOCKS = YES;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_NS_ASSERTIONS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.12;
-				MTL_ENABLE_DEBUG_INFO = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_NAME = Apodimark;
-				SDKROOT = macosx;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				OTHER_SWIFT_FLAGS = "-DXcode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator appletvos appletvsimulator watchos watchsimulator";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				USE_HEADERMAP = NO;
 			};
 			name = Debug;
 		};
-		CD1CCFAB1DA68BCB00D3AEAF /* Release */ = {
+		OBJ_4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_SUSPICIOUS_MOVES = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "-";
-				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 1;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.12;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = Apodimark;
-				SDKROOT = macosx;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_OPTIMIZATION_LEVEL = s;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_SWIFT_FLAGS = "-DXcode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator appletvos appletvsimulator watchos watchsimulator";
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				USE_HEADERMAP = NO;
+			};
+			name = Release;
+		};
+		OBJ_46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = Apodimark.xcodeproj/Apodimark_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = Apodimark;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SUPPORTED_PLATFORMS = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = SWIFT_PACKAGE;
 				SWIFT_VERSION = 3.0;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		CD1CCFAD1DA68BCB00D3AEAF /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "";
-				COMBINE_HIDPI_IMAGES = YES;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = Sources/Apodimark/info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = land.loic.Apodimark.macOS;
-				SKIP_INSTALL = YES;
+				TARGET_NAME = Apodimark;
 			};
 			name = Debug;
 		};
-		CD1CCFAE1DA68BCB00D3AEAF /* Release */ = {
+		OBJ_47 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "";
-				COMBINE_HIDPI_IMAGES = YES;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = Sources/Apodimark/info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = land.loic.Apodimark.macOS;
-				SKIP_INSTALL = YES;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = Apodimark.xcodeproj/Apodimark_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = Apodimark;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SUPPORTED_PLATFORMS = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = SWIFT_PACKAGE;
+				SWIFT_VERSION = 3.0;
+				TARGET_NAME = Apodimark;
 			};
 			name = Release;
 		};
-		CD1CCFB01DA68BCB00D3AEAF /* Debug */ = {
+		OBJ_71 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "";
-				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = Tests/UnitTests/info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = land.loic.ApodimarkTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = Apodimark.xcodeproj/ApodimarkTests_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SUPPORTED_PLATFORMS = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = SWIFT_PACKAGE;
+				SWIFT_VERSION = 3.0;
+				TARGET_NAME = ApodimarkTests;
 			};
 			name = Debug;
 		};
-		CD1CCFB11DA68BCB00D3AEAF /* Release */ = {
+		OBJ_72 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "";
-				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = Tests/UnitTests/info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = land.loic.ApodimarkTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = Apodimark.xcodeproj/ApodimarkTests_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SUPPORTED_PLATFORMS = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = SWIFT_PACKAGE;
+				SWIFT_VERSION = 3.0;
+				TARGET_NAME = ApodimarkTests;
 			};
 			name = Release;
 		};
-		CD1CCFF51DA68D1700D3AEAF /* Debug */ = {
+		OBJ_81 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = Sources/Apodimark/info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = land.loic.Apodimark.iOS;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = Apodimark.xcodeproj/PerformanceTests_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SUPPORTED_PLATFORMS = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = SWIFT_PACKAGE;
+				SWIFT_VERSION = 3.0;
+				TARGET_NAME = PerformanceTests;
 			};
 			name = Debug;
 		};
-		CD1CCFF61DA68D1700D3AEAF /* Release */ = {
+		OBJ_82 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = Sources/Apodimark/info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = land.loic.Apodimark.iOS;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		CD1CD0181DA68DBD00D3AEAF /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				APPLICATION_EXTENSION_API_ONLY = YES;
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = Sources/Apodimark/info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = land.loic.Apodimark.watchOS;
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 3.0;
-			};
-			name = Debug;
-		};
-		CD1CD0191DA68DBD00D3AEAF /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				APPLICATION_EXTENSION_API_ONLY = YES;
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = Sources/Apodimark/info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = land.loic.Apodimark.watchOS;
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = 4;
-				VALIDATE_PRODUCT = YES;
-				WATCHOS_DEPLOYMENT_TARGET = 3.0;
-			};
-			name = Release;
-		};
-		CD1CD0381DA68F5700D3AEAF /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = Sources/Apodimark/info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = land.loic.Apodimark.tvOS;
-				SDKROOT = appletvos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 10.0;
-			};
-			name = Debug;
-		};
-		CD1CD0391DA68F5700D3AEAF /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = Sources/Apodimark/info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = land.loic.Apodimark.tvOS;
-				SDKROOT = appletvos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 10.0;
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		CD1CD0631DA693E100D3AEAF /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CLANG_ENABLE_MODULES = YES;
-				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = Tests/PerformanceTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = land.loic.PerformanceTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Debug;
-		};
-		CD1CD0641DA693E100D3AEAF /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CLANG_ENABLE_MODULES = YES;
-				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = Tests/PerformanceTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = land.loic.PerformanceTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = Apodimark.xcodeproj/PerformanceTests_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SUPPORTED_PLATFORMS = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = SWIFT_PACKAGE;
+				SWIFT_VERSION = 3.0;
+				TARGET_NAME = PerformanceTests;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CD1CCF921DA68BCA00D3AEAF /* Build configuration list for PBXProject "Apodimark" */ = {
+		OBJ_2 /* Build configuration list for PBXProject "Apodimark" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CD1CCFAA1DA68BCB00D3AEAF /* Debug */,
-				CD1CCFAB1DA68BCB00D3AEAF /* Release */,
+				OBJ_3 /* Debug */,
+				OBJ_4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
-		CD1CCFAC1DA68BCB00D3AEAF /* Build configuration list for PBXNativeTarget "Apodimark-macOS" */ = {
+		OBJ_45 /* Build configuration list for PBXNativeTarget "Apodimark" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CD1CCFAD1DA68BCB00D3AEAF /* Debug */,
-				CD1CCFAE1DA68BCB00D3AEAF /* Release */,
+				OBJ_46 /* Debug */,
+				OBJ_47 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
-		CD1CCFAF1DA68BCB00D3AEAF /* Build configuration list for PBXNativeTarget "Apodimark-UnitTests" */ = {
+		OBJ_70 /* Build configuration list for PBXNativeTarget "ApodimarkTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CD1CCFB01DA68BCB00D3AEAF /* Debug */,
-				CD1CCFB11DA68BCB00D3AEAF /* Release */,
+				OBJ_71 /* Debug */,
+				OBJ_72 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
-		CD1CCFF41DA68D1700D3AEAF /* Build configuration list for PBXNativeTarget "Apodimark-iOS" */ = {
+		OBJ_80 /* Build configuration list for PBXNativeTarget "PerformanceTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CD1CCFF51DA68D1700D3AEAF /* Debug */,
-				CD1CCFF61DA68D1700D3AEAF /* Release */,
+				OBJ_81 /* Debug */,
+				OBJ_82 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		CD1CD0171DA68DBD00D3AEAF /* Build configuration list for PBXNativeTarget "Apodimark-watchOS" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				CD1CD0181DA68DBD00D3AEAF /* Debug */,
-				CD1CD0191DA68DBD00D3AEAF /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		CD1CD0371DA68F5700D3AEAF /* Build configuration list for PBXNativeTarget "Apodimark-tvOS" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				CD1CD0381DA68F5700D3AEAF /* Debug */,
-				CD1CD0391DA68F5700D3AEAF /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		CD1CD0621DA693E100D3AEAF /* Build configuration list for PBXNativeTarget "Apodimark-PerformanceTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				CD1CD0631DA693E100D3AEAF /* Debug */,
-				CD1CD0641DA693E100D3AEAF /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = CD1CCF8F1DA68BCA00D3AEAF /* Project object */;
+	rootObject = OBJ_1 /* Project object */;
 }

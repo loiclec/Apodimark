@@ -1,5 +1,6 @@
 
 import XCTest
+import Foundation
 import Apodimark
 
 private func baseStringForTest(_ name: String, result: Bool = false) -> String {
@@ -19,6 +20,21 @@ private func testString(size: Int) -> String {
 }
 
 class PerformanceTests : XCTestCase {
+    static let allTests = [
+        ("testArrayUTF8_100_000", testArrayUTF8_100_000),
+        ("testArrayUTF8_1_000_000", testArrayUTF8_1_000_000),
+        ("testArrayUTF8_10_000_000", testArrayUTF8_10_000_000),
+        ("testCharacter_100_000", testCharacter_100_000),
+        ("testCharacter_1_000_000", testCharacter_1_000_000),
+        ("testCharacter_10_000_000", testCharacter_10_000_000),
+        ("testCharacter_10_000_000", testCharacter_10_000_000),
+        ("testUnicodeScalar_100_000", testUnicodeScalar_100_000),
+        ("testUnicodeScalar_1_000_000", testUnicodeScalar_1_000_000),
+        ("testUnicodeScalar_10_000_000", testUnicodeScalar_10_000_000),
+        ("testUTF16_100_000", testUTF16_100_000),
+        ("testUTF16_1_000_000", testUTF16_1_000_000),
+        ("testUTF16_10_000_000", testUTF16_10_000_000),
+    ]
     
     func testArrayUTF8_100_000() {
         let s = testString(size: 100_000)
